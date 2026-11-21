@@ -19,7 +19,7 @@ hr{border:0;border-top:1px solid color-mix(in srgb,var(--yazi) 15%,transparent);
 </head>
 <body><main>
 <h1>Mahrec Gizlilik Politikası</h1>
-<p class="tarih">Son güncelleme: 20 Kasım 2026</p>
+<p class="tarih">Son güncelleme: 21 Kasım 2026</p>
 
 <p>Mahrec, Kur'an okumayı öğrenmeye yardım eden bir mobil uygulamadır. Uygulamayı Sarper Yazılım ve Teknoloji yayınlar. Bu sayfa, uygulamanın hangi bilgileri nasıl kullandığını anlatır.</p>
 
@@ -28,7 +28,8 @@ hr{border:0;border-top:1px solid color-mix(in srgb,var(--yazi) 15%,transparent);
 <li>Hesap açmanız gerekmez; adınızı, e-postanızı ya da telefon numaranızı istemeyiz.</li>
 <li>Sesiniz telefonunuzda işlenir ve hiçbir sunucuya gönderilmez.</li>
 <li>Konumunuz yalnızca telefonunuzda, namaz vakti ve kıble hesabı için kullanılır.</li>
-<li>Reklam, analiz ya da izleme aracı kullanmayız. Verilerinizi satmayız ve paylaşmayız.</li>
+<li>Reklam ve izleme yok. Yalnızca siz izin verirseniz, kimliğinizle ilişkilendirilmeden kullanım istatistikleri ve çökme raporları toplanır (Firebase).</li>
+<li>Verilerinizi satmayız.</li>
 </ul>
 
 <h2>Mikrofon</h2>
@@ -36,6 +37,16 @@ hr{border:0;border-top:1px solid color-mix(in srgb,var(--yazi) 15%,transparent);
 
 <h2>Konum</h2>
 <p>Namaz vakitlerini ve kıble yönünü bulunduğunuz yere göre hesaplamak için konum izni isteriz. Konum telefonunuzda hesaplama için kullanılır ve son bilinen konum yalnızca telefonda saklanır. Bulunduğunuz şehrin adını göstermek için telefonun işletim sistemi konum bilgisini kendi adres servisine (Google veya Apple) sorabilir. İzin vermezseniz uygulama İstanbul vakitleriyle çalışır.</p>
+
+<h2>Kullanım istatistikleri ve çökme raporları (isteğe bağlı)</h2>
+<p>Uygulamayı ilk açtığınızda size sorarız; yalnızca "İzin ver" derseniz Google'ın Firebase Analytics ve Firebase Crashlytics hizmetleri açılır. İzin vermezseniz hiçbir şey toplanmaz ve uygulama aynen çalışır. Kararınızı istediğiniz zaman Profil &gt; Gizlilik &gt; Kullanım istatistikleri'nden değiştirebilirsiniz.</p>
+<p>İzin verdiğinizde toplananlar:</p>
+<ul>
+<li>Uygulama içi olaylar: tanıtımın bitmesi, tilavet kontrolü yapılması (yalnızca doğruluk oranıyla), Plus ekranının açılması ve abonelik satın alınması, tanıma modelinin inmesi.</li>
+<li>Uygulamayı açma sıklığı ve süresi, uygulama sürümü, telefonun modeli ve işletim sistemi sürümü, dil, ülke düzeyinde konum (IP adresinden).</li>
+<li>Uygulama çökerse çökme raporu.</li>
+</ul>
+<p>Toplanmayanlar: adınız, e-postanız, okuduğunuz sure ve ayetler, ses kaydınız, konumunuz, reklam kimliğiniz. Size ait bir kullanıcı kimliği tanımlamayız. Bu bilgiler Google LLC tarafından işlenir ve Türkiye dışında (ABD dahil) saklanabilir; izin vererek bu aktarıma da açık rıza vermiş olursunuz. Firebase verileri 14 ay sonra silinir.</p>
 
 <h2>Telefonda saklanan bilgiler</h2>
 <p>Okuma ilerlemeniz, hata defteriniz, tema ve bildirim ayarlarınız, zikir sayınız yalnızca telefonunuzda saklanır. Uygulamayı sildiğinizde bu bilgiler de silinir.</p>
@@ -57,7 +68,7 @@ hr{border:0;border-top:1px solid color-mix(in srgb,var(--yazi) 15%,transparent);
 <p>Uygulama her yaştan kullanıcıya uygundur ve çocuklardan bilerek kişisel bilgi toplamaz.</p>
 
 <h2>Haklarınız</h2>
-<p>Kişisel verileriniz sunucularımızda tutulmadığı için silinecek ya da dışa aktarılacak bir kaydınız yoktur. Telefondaki bilgileri uygulamayı silerek ya da uygulama verilerini temizleyerek kaldırabilirsiniz. 6698 sayılı KVKK ve GDPR kapsamındaki sorularınız için bize yazabilirsiniz.</p>
+<p>Kişisel verileriniz sunucularımızda tutulmaz. İzin verdiyseniz Firebase'deki istatistikler bir kullanıcı kimliğine bağlı olmadığı için tek tek ayrılamaz; toplamayı profilden istediğiniz zaman kapatabilirsiniz. Telefondaki bilgileri uygulamayı silerek ya da uygulama verilerini temizleyerek kaldırabilirsiniz. 6698 sayılı KVKK ve GDPR kapsamındaki sorularınız için bize yazabilirsiniz.</p>
 
 <h2>Değişiklikler</h2>
 <p>Bu politika değişirse güncel hali bu sayfada yayınlanır ve üstteki tarih güncellenir.</p>
@@ -77,7 +88,7 @@ hr{border:0;border-top:1px solid color-mix(in srgb,var(--yazi) 15%,transparent);
 <li>Progress, settings and counters are stored only on your device. Notifications are scheduled locally.</li>
 <li>The speech model is downloaded from GitHub, and reciter audio is streamed from everyayah.com; these servers can see your IP address.</li>
 <li>Subscriptions are processed by Google Play or the App Store. We never see your payment details.</li>
-<li>No ads, analytics or tracking. We do not sell or share data.</li>
+<li>No ads and no tracking. Only if you opt in (asked on first launch, changeable in Profile), anonymous usage statistics and crash reports are collected with Google Firebase Analytics and Crashlytics: in-app events, app version, device model, OS version, language and approximate country. Your recitations, audio, location and advertising ID are never collected. We do not sell data.</li>
 </ul>
 <p>Contact: <a href="mailto:sarper@sarpersubasi.com">sarper@sarpersubasi.com</a></p>
 </div>
